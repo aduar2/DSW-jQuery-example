@@ -6,6 +6,6 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
-	$("disappear").click(function() {
-		$("p").toggle();
+	$("p1").click(function() {
+		$("disappear").toggle();
 });
