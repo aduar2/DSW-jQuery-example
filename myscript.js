@@ -11,4 +11,10 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
+	
+	$("#image").hover(function() {
+		$("img").css("opacity": 60%);
+	
+	});
+	
 });
