@@ -13,8 +13,9 @@ $(document).ready(function() {
 	});
 	
 	$("#image").hover(function(){
-		$("img").css({"opacity": "60%"});
-	
+		$("img").css("opacity": "60%);
+			     }, function(){
+			$("img").css("opacity": "100%");
+		});
 	});
-	
 });
