@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("#h1").click(function() {
 		$("p").css({"color":"red", "background-color": "yellow"});
-		$("img").css({"border": "25px solid black"});
+		$("img").css("border", "25px solid black");
 	});
 	
 	$("#p1").click(function() {
@@ -12,8 +12,8 @@ $(document).ready(function() {
 		$("img").toggle();
 	});
 	
-	$("#image").hover(function() {
-		$("img").css("opacity": 60%);
+	$("#image").hover(function(){
+		$("img").css({"opacity": "60%"});
 	
 	});
 	
